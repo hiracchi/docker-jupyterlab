@@ -1,0 +1,6 @@
+.git/*
+
+work/*
+README.md
+Makefile
+jupyter_notebook_config.py.orig
