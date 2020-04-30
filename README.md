@@ -5,3 +5,7 @@
   - オリジナルは `jupyter_notebook_config.py.orig`
 
 - ブラウザで `http://localhost:8888/` を開く
+
+
+## インストール済み拡張機能
+- nglview (https://github.com/arose/nglview)
