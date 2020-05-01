@@ -9,3 +9,7 @@
 
 ## インストール済み拡張機能
 - nglview (https://github.com/arose/nglview)
+
+## 重要PATH
+- c.LabApp.user_settings_dir = '/home/docker/.jupyter/lab/user-settings'
+- c.LabApp.workspaces_dir = '/home/docker/.jupyter/lab/workspaces'

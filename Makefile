@@ -27,6 +27,9 @@ stop:
 	docker rm -f ${CONTAINER_NAME}
 
 
+restart: stop start
+
+
 term:
 	docker exec -it ${CONTAINER_NAME} /bin/bash
 
