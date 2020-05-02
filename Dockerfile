@@ -86,6 +86,11 @@ RUN set -x && \
     jupyter nbextension enable  --py nglview && \
     jupyter labextension install nglview-js-widgets
 
+# MDAnalysis
+RUN set -x && \
+    pip3 install --no-cache-dir \
+    MDAnalysis MDAnalysisTests
+
 # 
 RUN set -x && \
     jupyter labextension install @lckr/jupyterlab_variableinspector && \
@@ -96,10 +101,6 @@ RUN set -x && \
     jupyterlab-git && \
     jupyter labextension install @jupyterlab/git && \
     jupyter serverextension enable --py jupyterlab_git
-
-RUN set -x && \
-    pip3 install --no-cache-dir \
-    MDAnalysis MDAnalysisTests
 
 # RUN set -x && \
 #     pip3 install --no-cache-dir \
